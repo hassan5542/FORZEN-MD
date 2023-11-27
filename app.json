@@ -1,14 +1,14 @@
 {
-  "name": "FORZEN-MD",
+  "name": "Hassan Chand",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/0b5a7839e8ee21874921e.jpg",
+  "logo": "https://ibb.co/4mHWrFk",
   "keywords": ["nodejs", "bot", "FORZEN-MD", "YASIYA-OFC", "INDUWARA", "Secktor","YASIYA","theme bot","multi device","baileys","Sam Pandey"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "YASIYA OFC"
+      "value": "Hassan"
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
@@ -20,11 +20,12 @@
     },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://telegra.ph/file/0b5a7839e8ee21874921e.jpg"
+     "value": "https://ibb.co/4mHWrFk"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
-     "required" :false
+    "value": "fuck,sex,xxx,gandu,sexy,boobs",
+     "required" :true
     },
    "ANTILINK_VALUES": {
     "description": "Put words for antilink",
@@ -61,7 +62,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94760018802"
+       "value": "923243791034"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit https://replit.com/@DarkYasiyaofc/FORZEN-MD-V1"
